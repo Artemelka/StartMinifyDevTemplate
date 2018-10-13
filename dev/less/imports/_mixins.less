@@ -1,0 +1,22 @@
+.inline-block(@position:top) {
+	display: inline-block;
+	vertical-align: @position;
+	box-sizing: border-box;
+}
+.grid-float {
+	&:after,
+	&:before {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+.grid-inline {
+	font-size: 0;
+}
+.grid-flex(@wrap:wrap, @just: center, @align: center) {
+	display: flex;
+	flex-wrap: @wrap;
+	justify-content: @just;
+	align-items: @align;
+}
