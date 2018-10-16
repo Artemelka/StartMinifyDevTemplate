@@ -1,6 +1,6 @@
 {
-  "name": "site.name",
-  "version": "0.0.1",
+  "name": "Start-minify-Dev-Template",
+  "version": "1.0.0",
   "author": "artEmelka",
   "devDependencies": {
     "@babel/core": "^7.1.2",
