@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "author": "artEmelka",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^3.7.0",
     "gulp-concat": "^2.6.1",
-    "gulp-concat-css": "^2.3.0",
     "gulp-html-minify": "0.0.14",
     "gulp-html-replace": "^1.6.2",
     "gulp-htmlincluder": "^0.1.0",
@@ -18,7 +20,11 @@
     "gulp-livereload": "^3.8.1",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
+    "gulp-rev-append": "^0.1.8",
     "gulp-spritesmith": "0.0.2",
     "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "start": "gulp"
   }
 }
